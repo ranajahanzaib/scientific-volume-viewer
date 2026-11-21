@@ -1,10 +1,13 @@
-Fixes #<issue_number_goes_here>
+## Summary
 
-> It's a good idea to open an issue first for discussion.
+Describe the change and the problem it addresses.
 
-**Description**
-A brief summary of what this PR does and why.
+## Verification
 
-- [ ] Tests pass
-- [ ] README updated if needed
-- [ ] No breaking changes (or described below)
+- [ ] Backend tests pass, if applicable
+- [ ] Frontend typecheck and build pass, if applicable
+- [ ] Documentation is updated, if applicable
+
+## Related issues
+
+Closes #
