@@ -1,0 +1,13 @@
+[project]
+name = "chunkscope-api"
+version = "0.1.0"
+description = "Local Zarr storage inspector API"
+requires-python = ">=3.11"
+dependencies = ["fastapi", "uvicorn[standard]", "zarr", "numpy", "duckdb", "fsspec", "s3fs"]
+
+[project.optional-dependencies]
+test = ["pytest", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,20 @@
+{
+  "name": "chunkscope",
+  "private": true,
+  "scripts": {
+    "dev": "next dev apps/web",
+    "build": "next build apps/web",
+    "start": "next start apps/web",
+    "typecheck": "tsc --noEmit",
+    "test:api": "uv run pytest"
+  },
+  "dependencies": {
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "next": "*",
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*"
+  }
+}
